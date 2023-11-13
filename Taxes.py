@@ -20,19 +20,19 @@ if taxable_income <= 18200:
 # seccond tax bracket(19% tax rate)
 elif taxable_income <= 45000:
     tax_calculation = ((taxable_income - 18200) * 0.19)
-    print(tax_calculation)
+    print(f"Your total tax is: ${tax_calculation}")
 
 # third tax bracket(32.5% tax rate and $5092 tax)
 elif taxable_income <= 120000:
     tax_calculation1 = (5092 + (taxable_income - 45000) * 0.325)
-    print(tax_calculation1)
+    print(f"Your total tax is: ${tax_calculation1}")
 
 # fourth tax bracket(37% tax rate and $29467 tax)
 elif taxable_income <= 180000:
     tax_calculation2 = (29467 + (taxable_income - 120000) * 0.37)
-    print(tax_calculation2)
+    print(f"Your total tax is: ${tax_calculation2}")
 
 # fifth tax bracket (45% tax rate and $51667 tax)
 else:
     tax_calculation3 = (51667 + 0.45 * (taxable_income - 180000))
-    print(tax_calculation3)
+    print(f"Your total tax is: ${tax_calculation3}")
