@@ -176,7 +176,6 @@ elif payment_gap == 2:
 
 # monthly
 elif payment_gap == 3:
-    print(3)
     total_income = (income * 12)
 
     # creates the taxable income(subttracting the allowable deductions)
